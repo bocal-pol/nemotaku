@@ -1,0 +1,31 @@
+# Build
+build/
+out/
+cmake-build-*/
+
+# CEF binary distribution (téléchargé, pas versionné)
+third_party/cef/
+
+# Qt
+*.pro.user
+*.autosave
+
+# IDE
+.vs/
+.vscode/
+*.user
+CMakeUserPresets.json
+
+# Compilateurs / objets
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+
+# OS
+Thumbs.db
+.DS_Store
